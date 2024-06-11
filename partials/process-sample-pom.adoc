@@ -59,6 +59,15 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- BAMOE (Kogito) Tech Preview -->
+            <dependency>
+                <groupId>${bamoe.bom.group-id}</groupId>
+                <artifactId>bamoe-techpreview-bom</artifactId>
+                <version>${bamoe.bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
